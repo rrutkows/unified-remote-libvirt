@@ -1,0 +1,4 @@
+meta.name: libvirt
+meta.author: Rafał Rutkowski
+meta.description: A simple virtualization host manager
+meta.platform: linux
