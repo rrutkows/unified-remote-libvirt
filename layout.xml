@@ -4,7 +4,7 @@
       <button icon="refresh" onTap="refresh" />
     </row>
     <row>
-      <list id="list" />
+      <list id="list" onTap="domain" />
     </row>
   </grid>
 </layout>
