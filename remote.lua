@@ -48,8 +48,8 @@ end
 
 local function update()
     domains = {}
-    add_domains("", { type = "item", icon = "on", active = true })
-    add_domains("--inactive", { type = "item", icon = "off", active = false })
+    add_domains("", { type = "item", icon = "play", active = true })
+    add_domains("--inactive", { type = "item", icon = "stop", active = false })
     table.sort(domains, function(d1, d2) return d1.text < d2.text end)
     server.update{ id = "list", children = domains }
 end
